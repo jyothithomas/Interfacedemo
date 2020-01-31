@@ -42,6 +42,8 @@ public class Person implements IDisplay {
 
     @Override
     public void display() {
+        System.out.println("I am from person");
+
 
     }
 }

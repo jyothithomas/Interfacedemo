@@ -16,4 +16,10 @@ public class PartTimeStudent extends Student {
     public void setNoOfDays(String noOfDays) {
         this.noOfDays = noOfDays;
     }
+
+    @Override
+    public void display() {
+        super.display();
+    }
+
 }
